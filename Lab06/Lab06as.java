@@ -33,6 +33,7 @@ public class Lab06as implements GLEventListener{
 	      
 	   }
 	
+	
    public void display(GLAutoDrawable drawable) {
       final GL2 gl = drawable.getGL().getGL2();
        	  gl.glBegin (GL2.GL_POINTS);//static field
