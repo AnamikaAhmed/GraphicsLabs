@@ -32,6 +32,7 @@ public class Lab06as implements GLEventListener{
               frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
 	      
 	   }
+	
    public void display(GLAutoDrawable drawable) {
       final GL2 gl = drawable.getGL().getGL2();
        	  gl.glBegin (GL2.GL_POINTS);//static field
